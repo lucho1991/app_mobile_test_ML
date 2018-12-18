@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="myTitleAplication">Test Mercado Libre</string>
+    <string name="app_label">Buscar</string>
+    <string name="search_hint">Buscar en Mercado Libre</string>
+    <string name="search">Buscar</string>
+
+    <string name="objective">Objetivos de la aplicación</string>
+    <string name="pointsObjectiveOne">1. Campo de búsqueda.</string>
+    <string name="pointsObjectiveTwo">2. Visualización de resultados de la búsqueda.</string>
+    <string name="pointsObjectiveThree">3. Detalle de un producto.</string>
+
+
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeChoiseCountry"
+        android:visibility="visible"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:id="@+id/logoMercadoLibre"
+                android:background="@drawable/ic_logo"
+                android:layout_marginBottom="50dp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnArgentina"
+                            android:background="@mipmap/ic__argentina"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnBolivia"
+                            android:background="@mipmap/ic__bolivia"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnBrasil"
+                            android:background="@mipmap/ic__brasil"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnPeru"
+                            android:background="@mipmap/ic__peru"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnChile"
+                            android:background="@mipmap/ic__chile"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnColombia"
+                            android:background="@mipmap/ic__colombia"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnCostaRica"
+                            android:background="@mipmap/ic__costarica"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnParaguay"
+                            android:background="@mipmap/ic__paraguay"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnDominicana"
+                            android:background="@mipmap/ic__dominicana"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnEcuador"
+                            android:background="@mipmap/ic__ecuador"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnGuatemala"
+                            android:background="@mipmap/ic__guatemala"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnPanama"
+                            android:background="@mipmap/ic__panama"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnHonduras"
+                            android:background="@mipmap/ic__honduras"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnMexico"
+                            android:background="@mipmap/ic__mexico"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnNicaragua"
+                            android:background="@mipmap/ic__nicaragua"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnVenezuela"
+                            android:background="@mipmap/ic__venezuela"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnSalvador"
+                            android:background="@mipmap/ic__salvador"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/btnUruguay"
+                            android:background="@mipmap/ic__uruguay"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="16dp"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</merge>
+
